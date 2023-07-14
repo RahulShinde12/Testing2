@@ -1,0 +1,113 @@
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin: 0;
+  background-color: #323441;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-ul li {
+  padding: 10px;
+  display: inline-block;
+}
+
+.nav-ul li a {
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-ul img {
+  height: 60px;
+  /* Adjust the height as needed */
+  margin-right: 10px;
+  /* Add some spacing between the logo and tabs */
+}
+
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  background-color: #323441;
+}
+
+.footer h5 {
+  text-align: start;
+  padding-left: 10px;
+}
+
+.sign-up {
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 450px;
+  border: 2px solid #323441;
+  margin-left: 30%;
+}
+
+.sign-up h1 {
+  text-align: center;
+}
+
+.inputBox {
+  display: block;
+  margin: 25px;
+  margin-left: 70px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid #323441;
+  align-items: center;
+}
+
+.submit-btn {
+  margin: 25px;
+  margin-left: 150px;
+  padding: 10px;
+  width: 150px;
+  background-color: #323441;
+  color: #FFF;
+  border: 2px solid black;
+  align-items: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
